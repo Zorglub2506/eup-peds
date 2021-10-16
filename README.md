@@ -14,9 +14,14 @@ I am not responsible for any crash, error and bugs but I am always here to help 
 ******************************************
 Credits
 ******************************************
+ieRGud & AlexBraun & Alex_Ashfold - Most of the models and textures
+Hanako - New vests 3D model
 
 If I missed anyone it's because you didn't include a credit file. Sorry. 
 Textures : HEAVY DUTY ELECTRO HOUSE
+
+If you want the dev files, please contact me on Discord.
+
 Please report any bugs to me directly.  
 
 
@@ -34,14 +39,11 @@ To install this mod you first need to install EUP Menu and EUP Law & Order :
 EUP Menu : https://www.lcpdfr.com/downloads/gta5mods/scripts/13245-eup-menu/
 EUP L&O : https://www.lcpdfr.com/downloads/gta5mods/character/8151-emergency-uniforms-pack-law-order/
 
-Then, go to : (OpenIV)
-    GTA V > mods > update > x64 > dlcpacks > eup > dlc.rpf > x64 >
+Drop eup_componentpeds folder's content in : (OpenIV)
+    GTA V > mods > update > x64 > dlcpacks > eup > dlc.rpf > x64 > eup_componentpeds.rpf
 
-Then just drag and drop each files into the corresponding foler.
-    Example : to install the [eup_componentpeds > mp_m_freemode_01_male_heist] files, go to  [dlc.rpf > x64 > eup_componentpeds.rpf > mp_m_freemode_01_male_heist] and drop the mod's [mp_m_freemode_01_male_heist] folder's content.
-
-If the folder doesn't exist, drop the whole folder instead of each file.
-    Example : to intall the [eup_componentpeds > mp_m_freemode_01_mp_m_clothes_01] you need to drop the folder (and not the files) in eup_componentpeds.rpf
+Drop eup_componentpeds_p folder's content in : (OpenIV)
+    GTA V > mods > update > x64 > dlcpacks > eup > dlc.rpf > x64 > eup_componentpeds_p.rpf
 
 If you are having troubles with the installation, our team will be glad to help you on our Discord server !
 
