@@ -1,4 +1,4 @@
-# eup-peds
+# E.U.P. textures pack
  
 ******************************************
 Disclaimer
