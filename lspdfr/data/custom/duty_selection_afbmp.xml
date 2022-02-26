@@ -1,0 +1,18 @@
+<Duty>
+    <!-- What agencies (and their models) are used during the selection process. -->
+    <!-- For peds this also includes the inventories available. -->
+    <!-- Child agencies listed here will merge with their parent agencies in the selection If a child agency is not specified, its
+    inventory will not be available for the parent agency. -->
+    <Peds>
+        <Agency>afbmp</Agency>
+    </Peds>
+    <Vehicles>
+        <Agency>afbmp</Agency>
+    </Vehicles>
+     <!-- Additional texts for the vehicle models that are displayed on screen when selecting a vehicle. -->
+    <VehicleDescriptions>
+		<Description name="Military Police Cruiser" fullName="2014 Dodge Charger Pursuit" agencyRef="afbmp">afbpol1</Description>
+        <Description name="Military Police Armoured Cruiser" fullName="2014 Chevy Tahoe PPV" agencyRef="afbmp">afbpol2</Description>
+        <Description name="Military Police Unmarked Cruiser" fullName="2011 Ford Crown Victoria PI" agencyName="afbmp">police4</Description>
+    </VehicleDescriptions>
+</Duty>

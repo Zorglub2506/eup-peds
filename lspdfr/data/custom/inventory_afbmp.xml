@@ -1,0 +1,24 @@
+<Inventories>
+    <Inventory>
+        <!-- SWAT config with heavier weapons + attachments + armor -->
+        <Name>AFBMP Patrol</Name>
+        <ScriptName>afbmp</ScriptName>
+        <Weapon>
+            <Model>WEAPON_CARBINERIFLE</Model>
+            <Component>COMPONENT_AT_AR_FLSH</Component> <!-- Flashlight -->
+			<Component>COMPONENT_AT_AR_AFGRIP</Component> <!-- Grip -->
+			<Component>COMPONENT_AT_SCOPE_MEDIUM</Component> <!-- Scope -->
+        </Weapon>
+        <Weapon>
+            <Model>WEAPON_PUMPSHOTGUN</Model>
+            <Component>COMPONENT_AT_AR_FLSH</Component> <!-- Flashlight -->
+        </Weapon>     
+        <Weapon>
+            <Model>WEAPON_COMBATPISTOL</Model>
+            <Component>COMPONENT_AT_PI_FLSH</Component> <!-- Flashlight -->
+        </Weapon>
+        <Weapon>WEAPON_PISTOL</Weapon>
+        <StunWeapon>WEAPON_STUNGUN</StunWeapon>
+        <Armor>100</Armor>
+    </Inventory>
+</Inventories>

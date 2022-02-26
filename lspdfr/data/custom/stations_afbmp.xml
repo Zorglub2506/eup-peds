@@ -1,0 +1,12 @@
+<PoliceStations>
+	<Station>
+		<Name>Air Force Base Military Police Station</Name>
+		<Agency>afbmp</Agency>
+		<ScriptName>airforcebasemp</ScriptName>
+		<Position>-1763.75f, 3138.25f, 32.8113f</Position>
+		<Heading>180f</Heading>
+		<DropOffPosition>-1776.78, 3133.48, 32.4883</DropOffPosition>
+		<GaragePosition>-1795.54, 3099.71, 32.4981; 225f</GaragePosition>
+		<GarageSpawnPosition>-1796.29f, 3093.26f, 32.4986f; 225f</GarageSpawnPosition>
+	</Station>
+</PoliceStations>

@@ -1,0 +1,10 @@
+<Regions>
+	<Region>
+        <Name>FortZancudo</Name>
+        <Zones>
+            <Zone>ARMYB</Zone>
+            <Zone>LAGO</Zone>
+            <Zone>ZANCUDO</Zone>
+        </Zones>
+    </Region>
+</Regions>

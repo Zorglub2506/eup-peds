@@ -1,0 +1,134 @@
+<Outfits>
+	<Outfit>
+		<Name>MP Soldier</Name>
+		<ScriptName>mp_soldier</ScriptName>
+		<Variations>
+			<Variation>
+				<Name>Female Soldier</Name>
+				<ScriptName>soldier_female</ScriptName>
+				<Gender>female</Gender>
+                <Components>
+                    <Component id="3" drawable="14" texture="0"/>
+                    <Component id="4" drawable="89" texture="0"/>
+                    <Component id="6" drawable="85" texture="0"/>
+                    <Component id="7" drawable="1" texture="0"/>
+                    <Component id="8" drawable="0" texture="0"/>
+                    <Component id="9" drawable="17" texture="0"/>
+                    <Component id="10" drawable="20" texture="0"/>
+                    <Component id="11" drawable="56" texture="0"/>
+                </Components>
+                <Props>
+					<Prop id="0" drawable="38" texture="1" />
+					<Prop id="1" drawable="25" texture="0" />
+                </Props>
+            </Variation>
+            <Variation>
+                <Name>Male Soldier</Name>
+                <ScriptName>soldier_male</ScriptName>
+				<Gender>male</Gender>
+                <Components>
+					<Component id="1" drawable="56" texture="1" /> <!-- Black Tight Ski -->
+					<Component id="3" drawable="17" texture="0" /> <!-- Black Tactical Gloves -->
+					<Component id="4" drawable="122" texture="0" /> <!-- NOOSE Bottom -->
+					<Component id="5" drawable="0" texture="0" />
+					<Component id="6" drawable="24" texture="0" /> <!-- Black Flight Boots -->
+					<Component id="7" drawable="0" texture="0" />
+					<Component id="8" drawable="15" texture="0" />
+					<Component id="9" drawable="27" texture="4" /> <!-- Vest -->
+					<Component id="10" drawable="0" texture="0" /> <!-- NOOSE Decal -->
+					<Component id="11" drawable="220" texture="3" /> <!-- NOOSE Top -->
+                </Components>
+                <Props>
+					<Prop id="0" drawable="39" texture="0" />
+					<Prop id="1" drawable="0" texture="0" />
+                </Props>
+            </Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>MP Officer</Name>
+		<ScriptName>mp_officer</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Female MP Officer</Name>
+                <ScriptName>female_mp_officer</ScriptName>
+				<Gender>female</Gender>
+                <Components>
+                    <Component id="3" drawable="14" texture="0"/>
+                    <Component id="4" drawable="89" texture="0"/>
+                    <Component id="6" drawable="85" texture="0"/>
+                    <Component id="7" drawable="1" texture="0"/>
+                    <Component id="8" drawable="0" texture="0"/>
+                    <Component id="9" drawable="17" texture="0"/>
+                    <Component id="10" drawable="20" texture="0"/>
+                    <Component id="11" drawable="56" texture="0"/>
+					<Prop id="0" drawable="28" texture="0" />
+					<Prop id="1" drawable="25" texture="0" />
+                </Components>
+            </Variation>
+			<Variation>
+				<Name>Male MP Officer</Name>
+                <ScriptName>male_mp_officer</ScriptName>
+				<Gender>male</Gender>
+                <Components>
+					<Component id="1" drawable="0" texture="0" /> <!-- Black Tight Ski -->
+					<Component id="3" drawable="17" texture="0" /> <!-- Black Tactical Gloves -->
+					<Component id="4" drawable="122" texture="0" /> <!-- NOOSE Bottom -->
+					<Component id="5" drawable="0" texture="0" />
+					<Component id="6" drawable="24" texture="0" /> <!-- Black Flight Boots -->
+					<Component id="7" drawable="0" texture="0" />
+					<Component id="8" drawable="15" texture="0" />
+					<Component id="9" drawable="16" texture="3" /> <!-- Vest -->
+					<Component id="10" drawable="0" texture="0" /> <!-- NOOSE Decal -->
+					<Component id="11" drawable="220" texture="3" /> <!-- NOOSE Top -->
+                </Components>
+				<Props>
+					<Prop id="0" drawable="28" texture="2" />
+					<Prop id="1" drawable="0" texture="0" />
+					<Prop id="2" drawable="0" texture="0" />
+				</Props>
+            </Variation>
+		</Variations>
+	</Outfit>
+	<Outfit>
+		<Name>USAF Fatigues</Name>
+		<ScriptName>usaf_fatigues</ScriptName>
+		<Variations>
+            <Variation>
+                <Name>Female USAF Fatigues</Name>
+                <ScriptName>female_usaf_fatigues</ScriptName>
+				<Gender>female</Gender>
+                <Components>
+                    <Component id="3" drawable="14" texture="0"/>
+                    <Component id="4" drawable="89" texture="0"/>
+                    <Component id="6" drawable="85" texture="0"/>
+                    <Component id="7" drawable="1" texture="0"/>
+                    <Component id="8" drawable="3" texture="0"/>
+                    <Component id="9" drawable="0" texture="0"/>
+                    <Component id="10" drawable="20" texture="0"/>
+                    <Component id="11" drawable="56" texture="0"/>
+					<Prop id="0" drawable="28" texture="0" />
+                </Components>
+            </Variation>
+			<Variation>
+				<Name>Male USAF Fatigues</Name>
+                <ScriptName>male_usaf_fatigues</ScriptName>
+				<Gender>male</Gender>
+                <Components>
+					<Component id="1" drawable="0" texture="0" /> <!-- Black Tight Ski -->
+					<Component id="3" drawable="0" texture="0"/>
+                    <Component id="4" drawable="86" texture="2"/>
+                    <Component id="6" drawable="82" texture="0"/>
+					<Component id="7" drawable="1" texture="0"/>
+                    <Component id="8" drawable="2" texture="1"/>
+					<Component id="9" drawable="0" texture="0"/>
+                    <Component id="10" drawable="23" texture="0"/>
+                    <Component id="11" drawable="63" texture="0"/>
+					<Prop id="0" drawable="28" texture="2" />
+					<Prop id="1" drawable="0" texture="0" />
+					<Prop id="2" drawable="0" texture="0" />
+                </Components>
+            </Variation>
+		</Variations>
+	</Outfit>
+</Outfits>	

@@ -1,0 +1,88 @@
+<Agencies>
+	<Agency>
+		<Name>AFB Military Police</Name>
+		<ShortName>AFBMP</ShortName>
+		<ScriptName>afbmp</ScriptName>
+		<TextureDictionary>dia_police</TextureDictionary>
+		<TextureName>dia_police</TextureName>
+		<Inventory>default</Inventory>
+		<Loadout>
+			<Name>Patrol Unit</Name>
+			<Vehicles>
+				<Vehicle>afbpol1</Vehicle>
+			</Vehicles>
+			<Peds>
+				<!-- 50% chance of male peds -->
+				<Ped chance="70" outfit="mp_officer" inventory="usafmp">mp_m_freemode_01</Ped> 
+				<!-- 30% chance of female peds -->
+				<Ped chance="30" outfit="mp_officer" inventory="usafmp">mp_f_freemode_01</Ped>
+				<!-- 10% chance of male peds -->
+				<Ped chance="0" outfit="usaf_fatigues" inventory="usafmp">mp_m_freemode_01</Ped> 
+				<!-- 10% chance of female peds -->
+				<Ped chance="0" outfit="usaf_fatigues" inventory="usafmp">mp_f_freemode_01</Ped>
+				<!-- 10% chance of female peds -->				
+				<Ped chance="0" outfit="mp_soldier" inventory="usafmp">mp_m_freemode_01</Ped> 
+				<!-- 10% chance of female peds -->
+				<Ped chance="0" outfit="mp_soldier" inventory="usafmp">mp_f_freemode_01</Ped>
+			</Peds>
+			<NumPeds min="1" max="2" />
+			<Flags>
+				<Flag>SWAT</Flag> <!-- This is a special flag which enhances the combat abilities of all officers within the loadout. -->
+				<Flag>RespondsAsTransport</Flag> <!-- Makes the unit eligible to be called for prisoner transport.  Only use this if there will be free seats for prisoners. -->
+				<Flag>RespondsAsBackup</Flag>    <!-- Makes the unit eligible to be called as either Code 2, Code 3 or Pursuit backup. -->
+				<Flag>SpawnsAmbiently</Flag>     <!-- Makes the unit eligible to spawn ambiently - e.g. on patrol in the area or outside of police stations -->
+			</Flags>
+		</Loadout>
+	</Agency>
+	<Agency>
+		<Name>AFB Military Police SWAT</Name>
+		<ShortName>afbmp_swat</ShortName>
+		<ScriptName>afbmp_swat</ScriptName>
+		<Inventory>swat</Inventory>
+		<Parent>afbmp</Parent>
+		<Loadout>
+			<Name>SWAT Unit</Name>
+			<Vehicles>
+				<Vehicle>afbpol1</Vehicle>
+				<Vehicle>afbpol2</Vehicle>
+				<Vehicle>police4</Vehicle> 
+			</Vehicles>
+			<Peds>
+				<Ped chance="0" inventory="usafmp">s_m_y_marine_03</Ped>
+				<Ped chance="0" inventory="usafmp">s_f_y_marine_01</Ped> 
+				<Ped chance="65" outfit="mp_soldier" inventory="usafmp">mp_m_freemode_01</Ped> 
+				<Ped chance="35" outfit="mp_soldier" inventory="usafmp">mp_f_freemode_01</Ped>
+			</Peds>
+			<NumPeds min="3" max="6" />
+			<Flags>
+				<Flag>SWAT</Flag> <!-- This is a special flag which enhances the combat abilities of all officers within the loadout. -->
+				<Flag>RespondsAsBackup</Flag>    <!-- Makes the unit eligible to be called as either Code 2, Code 3 or Pursuit backup. -->
+				<Flag>SpawnsAmbiently</Flag>     <!-- Makes the unit eligible to spawn ambiently - e.g. on patrol in the area or outside of police stations -->
+			</Flags> 
+		</Loadout>
+	</Agency>
+	<Agency>
+		<Name>United States Air Force</Name>
+		<ShortName>afbmp_air</ShortName>
+		<ScriptName>afbmp_asu</ScriptName>
+		<Parent>afbmp</Parent>
+		<Inventory>afbmp</Inventory>
+		<Loadout>
+			<Name>Air Unit</Name>
+			<Vehicles>
+				<Vehicle>cargobob</Vehicle>
+				<Vehicle>valkyrie</Vehicle>
+			</Vehicles>
+			<Peds>
+				<Ped chance="65" outfit="mp_soldier" inventory="usafmp">mp_m_freemode_01</Ped> 
+				<Ped chance="35" outfit="mp_soldier" inventory="usafmp">mp_f_freemode_01</Ped>
+			</Peds>
+			<NumPeds min="4" max="7" />
+			<Flags>
+				<Flag>SWAT</Flag> <!-- This is a special flag which enhances the combat abilities of all officers within the loadout. -->
+				<Flag>RespondsAsBackup</Flag>    <!-- Makes the unit eligible to be called as either Code 2, Code 3 or Pursuit backup. -->
+				<Flag>SpawnsAmbiently</Flag>     <!-- Makes the unit eligible to spawn ambiently - e.g. on patrol in the area or outside of police stations -->
+			</Flags>
+		</Loadout>
+	</Agency>
+</Agencies>

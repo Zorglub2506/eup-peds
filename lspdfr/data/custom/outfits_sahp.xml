@@ -1,0 +1,45 @@
+<Outfits>
+	<Outfit>
+		<Name>SAHP Officer</Name>
+		<ScriptName>mp_sahp</ScriptName>
+		<Variations>
+			<Variation>
+				<ScriptName>m_base</ScriptName>
+				<Name>Officer</Name>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="1" drawable="57" texture="0" /> <!-- Black Tight Ski -->
+					<Component id="3" drawable="17" texture="0" /> <!-- Black Tactical Gloves -->
+					<Component id="4" drawable="121" texture="0" /> <!-- NOOSE Bottom -->
+					<Component id="5" drawable="0" texture="0" />
+					<Component id="6" drawable="24" texture="0" /> <!-- Black Flight Boots -->
+					<Component id="7" drawable="0" texture="0" />
+					<Component id="8" drawable="15" texture="0" />
+					<Component id="9" drawable="12" texture="0" /> <!-- Vest -->
+					<Component id="10" drawable="0" texture="0" /> <!-- NOOSE Decal -->
+					<Component id="11" drawable="220" texture="7" /> <!-- NOOSE Top -->
+				</Components>
+			</Variation>
+			<Variation>
+				<ScriptName>m_base</ScriptName>
+				<Name>Tactical Response</Name>
+				<Gender>male</Gender>
+				<Components>
+					<Component id="1" drawable="57" texture="0" /> <!-- Black Tight Ski -->
+					<Component id="3" drawable="17" texture="0" /> <!-- Black Tactical Gloves -->
+					<Component id="4" drawable="121" texture="0" /> <!-- NOOSE Bottom -->
+					<Component id="5" drawable="0" texture="0" />
+					<Component id="6" drawable="24" texture="0" /> <!-- Black Flight Boots -->
+					<Component id="7" drawable="0" texture="0" />
+					<Component id="8" drawable="15" texture="0" />
+					<Component id="9" drawable="27" texture="2" /> <!-- Vest -->
+					<Component id="10" drawable="0" texture="0" /> <!-- NOOSE Decal -->
+					<Component id="11" drawable="220" texture="7" /> <!-- NOOSE Top -->
+				</Components>
+				<Props>
+					<Prop id ="0" drawable="141" texture="0" /> <!-- NOOSE Helmet -->
+				</Props>
+			</Variation>
+		</Variations>
+	</Outfit>
+</Outfits>

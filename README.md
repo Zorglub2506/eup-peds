@@ -45,6 +45,8 @@ Drop eup_componentpeds folder's content in : (OpenIV)
 Drop eup_componentpeds_p folder's content in : (OpenIV)
     GTA V > mods > update > x64 > dlcpacks > eup > dlc.rpf > x64 > eup_componentpeds_p.rpf
 
+Drop lspdfr folder into your game root to install new agencies.
+
 If you are having troubles with the installation, our team will be glad to help you on our Discord server !
 
 

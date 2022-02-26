@@ -1,0 +1,51 @@
+<Duty>
+    <!-- What agencies (and their models) are used during the selection process. -->
+    <!-- For peds this also includes the inventories available. -->
+    <!-- Child agencies listed here will merge with their parent agencies in the selection If a child agency is not specified, its
+    inventory will not be available for the parent agency. -->
+    <Peds>
+        <Agency>lspd</Agency>
+        <Agency>lspd_swat</Agency>
+        <Agency>lspd_asu</Agency>
+        <Agency>lssd</Agency>
+        <Agency>lssd_swat</Agency>
+        <Agency>sahp</Agency>
+        <Agency>nysp</Agency>
+        <Agency>noose</Agency>
+        <Agency>fib</Agency>
+        <Agency>iaa</Agency>
+        <Agency>doa</Agency>
+        <Agency>saspa</Agency>
+        <Agency>sapr</Agency>
+    </Peds>
+    <Vehicles>
+        <Agency>lspd</Agency>
+        <Agency>lssd</Agency>
+        <Agency>sahp</Agency>
+        <Agency>nysp</Agency>
+        <Agency>lspd_swat</Agency>
+        <Agency>lssd_swat</Agency>
+        <Agency>noose</Agency>
+        <Agency>fib</Agency>
+        <Agency>sapr</Agency>
+    </Vehicles>
+     <!-- Additional texts for the vehicle models that are displayed on screen when selecting a vehicle. -->
+    <VehicleDescriptions>
+        <Description name="Police Cruiser" fullName="2011 Ford Crown Victoria PI" agencyRef="lspd">police</Description>
+        <Description name="Police Cruiser 2" fullName="2014 Dodge Charger Pursuit" agencyRef="lspd">police2</Description>
+        <Description name="Police Cruiser 3" fullName="2018 Dodge Durango Pursuit" agencyRef="lspd">police3</Description>
+        <Description name="Police Cruiser 4" fullName="2016 Ford Explorer Police Interceptor" agencyRef="lspd">policeold2</Description>
+        <Description name="Police Pursuit Cruiser" fullName="2018 Dodge Charger Pursuit" agencyRef="lspd">policeold1</Description>
+        <Description name="Police Transporter" fullName="2016 Chevy Express PPV" agencyRef="lspd">policet</Description>
+        <Description name="Highway Cruiser" fullName="2010 Dodge Charger Pursuit" agencyRef="sahp">policeb</Description>
+        <Description name="Sheriff Cruiser" fullName="2016 Chevrolet Impala 9C1" agencyRef="lssd">sheriff</Description>
+        <Description name="Sheriff SUV" fullName="2017 Chevrolet Silverado PPV" agencyRef="lssd">pranger</Description>
+        <Description name="Sheriff Traffic Controller" fullName="Ford F-250 Police Utility" agencyRef="lssd">sheriff2</Description>
+        <Description name="Unmarked Cruiser" fullName="2011 Ford Crown Victoria PI" agencyName="Local &amp; Federal Agencies">police4</Description>
+        <Description name="Unmarked Buffalo" fullName="2014 Dodge Charger Pursuit" agencyName="Local &amp; Federal Agencies">fbi</Description>
+        <Description name="Unmarked Granger" fullName="2014 Chevy Tahoe PPV" agencyName="Local &amp; Federal Agencies">fbi2</Description>
+        <Description name="Police Armoured Vehicle" fullName="Lenco Bearcat" agencyRef="Local &amp; Federal Agencies">riot</Description>
+        <Description name="Mobile Police Command" fullName="Police Command Unit" agencyRef="Local &amp; Federal Agencies">pbus</Description>
+        <Description name="Hydra" fullName="Mammoth Hydra" agencyName="Ultimate Highway Patrol">hydra</Description>
+    </VehicleDescriptions>
+</Duty>
